@@ -11,7 +11,7 @@
 - https://dataist.wordpress.com/2012/10/12/get-started-with-screenscraping-using-google-chromes-scraper-extension/
 - http://schoolofdata.org/handbook/recipes/scraper-extension-for-chrome/
 
-###Övning 1
+###Övning
 
 Exempelsida: http://jensfinnas.github.io/sodertorn-scraping-2015/
 
@@ -21,9 +21,11 @@ Exempelsida: http://jensfinnas.github.io/sodertorn-scraping-2015/
 - Hämta alla kursiverade ord med klassen "name": `//i[@class="name"]`
 - Hämta det första kursiverade ordet med klassen "name": `//i[@class="name"][1]`
 
-__Bonusövning 1:__ Vem har flest länkar på sin startsida: Aftonbladet eller Expressen?
+__Bonusövningar:__ 
 
-__Bonusövning 2:__ Vem har flest länkar som innehåller ordet "chock"?
+- Vem har flest bilder på sin startsida: Aftonbladet eller Expressen?
+- Vem har flest länkar?
+- Vem har flest länkar som innehåller ordet "chock"?
 
 ### XPath-grunder
 
@@ -36,10 +38,11 @@ Uttryck|Vad det gör
 `//div[@id="download"]`|...eller ett annat attribut
 `//div/text()`|Hämta textinnehållet i en tagg
 `//a/@href`|Hämta ett visst attribut, i det här fallet en länks url
-`//div[conatains(., "sökord")]`|Hämta alla div-taggar som innehåller ett visst sökord
+`//div[contains(., "sökord")]`|Hämta alla div-taggar som innehåller ett visst sökord
 
 
-### Andra scraping-verktyg
+### Andra scraping-verktyg och länkar
 
 - [Kimono](https://www.kimonolabs.com/)
 - [Import.io](https://import.io/)
+- [](https://github.com/amandabee/scraping-for-journalists/blob/master/examples.md)

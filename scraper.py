@@ -27,8 +27,13 @@ def getInfoFromProfile(url):
 	doc = html.fromstring(page.text)
 
 	# Get name
+	print 'Get name'
 	name = doc.xpath('//header/div/h1/text()')[0]
 	
+	print 'Get year of birth'
+	born = doc.xpath('//div[@class="commissioner-info"]/ul/li[contains(.,"F\u00F6dd")]/span/text()')[0]
+	print "%s is born %s" % born
+
 	# Get current assignements
 	print 'Get number of assignements'
 	assignements = doc.xpath('//article[contains(., "Aktuella uppdrag")]/div/ul/li')
@@ -46,5 +51,5 @@ links = getLinksToProfiles(url)
 for i, link in enumerate(links):
 	url = '%s%s' % (baseUrl, link)
 	getInfoFromProfile(url)
-	if i is 5:
+	if i is 15:
 		break
