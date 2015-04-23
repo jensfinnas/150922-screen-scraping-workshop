@@ -45,4 +45,4 @@ Uttryck|Vad det gör
 
 - [Kimono](https://www.kimonolabs.com/)
 - [Import.io](https://import.io/)
-- [](https://github.com/amandabee/scraping-for-journalists/blob/master/examples.md)
+- [Amerikanska exempel på scrapingbaserad journalistik](https://github.com/amandabee/scraping-for-journalists/blob/master/examples.md)
