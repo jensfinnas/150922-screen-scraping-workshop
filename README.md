@@ -13,6 +13,8 @@
 
 ###Övning 1
 
+Exempelsida: http://jensfinnas.github.io/sodertorn-scraping-2015/
+
 - Hämta alla rubriker: `//h3`
 - Hämta alla länkar: `//a`
 - Hämta alla kursiverade ord: `//i`
