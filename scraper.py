@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 # http://docs.python-guide.org/en/latest/scenarios/scrape/
 
 from lxml import html
@@ -29,10 +30,6 @@ def getInfoFromProfile(url):
 	# Get name
 	print 'Get name'
 	name = doc.xpath('//header/div/h1/text()')[0]
-	
-	print 'Get year of birth'
-	born = doc.xpath('//div[@class="commissioner-info"]/ul/li[contains(.,"F\u00F6dd")]/span/text()')[0]
-	print "%s is born %s" % born
 
 	# Get current assignements
 	print 'Get number of assignements'
