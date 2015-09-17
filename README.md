@@ -2,7 +2,7 @@
 
 ###Länkar du behöver i dag
 
-- Länk till den här sidan: http://bit.ly/sodertorn-scraping
+- Länk till den här sidan: http://bit.ly/sjf-scraping
 - [Chrome Scraper-pluginet](https://chrome.google.com/webstore/detail/scraper/mbigbapnjcgaffohmbkdlecaccepngjd)
 - [Svenska riksdagsledamöter](http://www.riksdagen.se/sv/ledamoter-partier/Hitta-ledamot/Bokstavsordning/)
 
@@ -13,7 +13,7 @@
 
 ###Övning
 
-Exempelsida: http://jensfinnas.github.io/sodertorn-scraping-2015/
+Exempelsida: http://jensfinnas.github.io/150922-screen-scraping-workshop
 
 - Hämta alla rubriker: `//h3`
 - Hämta alla länkar: `//a`
